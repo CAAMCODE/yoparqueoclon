@@ -1,0 +1,141 @@
+body{
+    background-color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    margin-left: 200px;
+}
+aside{
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+aside #Logo{
+    width: 200px;
+    border-bottom: solid 1px lightgrey ;
+    padding: 10px 0;
+    text-align: center;
+}
+aside #Logo #Imagen{
+    box-sizing: border-box;
+    padding: 10px ;
+    margin: 0 auto;
+}
+aside .item{
+    width: 200px;
+    font-size: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 20px 0;
+    
+}
+aside .item a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#Registrarme{
+    width: 150px;
+	height: 40px;
+	background-color: orangered;
+	border-radius: 50px;
+}
+
+.textblue{
+    color: dodgerblue;
+}
+.textwhite{
+    color: white;
+    
+}
+nav{
+    margin: 10px 0 0 0;
+    padding: 30px 0;
+    background-color: white;
+}
+nav .menu {
+    display: flex;
+    justify-content: space-between;
+}
+nav .menu li {
+    padding: 0 30px;
+    display: inline-block;
+}
+.contacto{
+    width: 20px;
+}
+nav .menu li input{
+    width: 400px;
+} 
+#button{
+    background: url(lupa.png) no-repeat 0px 5px;
+    background-size: 20px;  
+    height: 25px;
+    width: 25px;
+    background-position-y: top;
+    border-radius: 50%;
+}
+.Gmap{
+    background-color: rgb(231, 240, 246);
+    width: 100%;
+    padding: 20px;
+}
+.mapa{
+    width: 1120px; 
+    height: 540px;
+    border:0;
+}
+footer{
+    padding: 8px 0 0 0;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.articulo{
+    background-color: rgb(231, 240, 246);
+    width: 100%;
+    padding: 20px;
+}
+.articulo article{
+    display: flex;
+}
+.articulo article section{
+    width: 360px;
+    height: 540px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin: 0 20px;
+}
+.articulo article section h3 {
+    color: orangered;
+    padding: 15px;
+}
+.articulo article section .scroll{
+    overflow-y: scroll
+}
+.articulo article section .photo{
+    box-sizing: border-box;
+    padding: 15px 0;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: solid 1px lightgrey;
+}
+.articulo article section .photo img{
+    border-radius: 50%;
+    width: 22%;
+}
+.articulo article section .photo .git{
+    display: flex;
+    align-items: center;
+}
+.articulo article section .photo .git img{
+    width: 20px;
+}
